@@ -1,9 +1,7 @@
 class Calculator:
-    def __init__(self, num1, num2, surname='Suthagar'):
+    def __init__(self, num1, num2):
         self.num1 = num1
         self.num2 = num2
-        self.name = 'Nirosh'
-        self.surname = surname
 
     def get_sum(self):
         return self.num1 + self.num2
@@ -20,5 +18,3 @@ class Calculator:
 if __name__ == '__main__':
     myCalc = Calculator(num1 = 10, num2 =20)
     print(myCalc.get_product())
-
-        
