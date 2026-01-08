@@ -13,3 +13,7 @@ Brief:
 Create Architecture Diagram 
 Create Project Plan/Kanban Board
 Update ReadMe file.
+
+Docker Commands:
+docker build -t name .
+docker run name
